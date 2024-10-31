@@ -1,0 +1,248 @@
+#root {
+width: 100%;
+height: 800px;
+background-color: white;
+}
+body{
+  min-height: 400px;
+}
+/* 
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* WifiSignal.css */
+
+.wave {
+  opacity: 0;
+  animation: wifiPulse 1.5s ease-in-out infinite;
+}
+
+/* .wave-1 {
+  animation-delay: 0s;
+} */
+
+.wave-2 {
+  animation: wifiPulse2 1.5s ease-in-out infinite;
+  /* animation-delay: 0.5s; */
+}
+
+/* .wave-3 { */
+  /* animation-duration: 1.s; */
+  /* animation-delay:0.5s; */
+/* } */
+
+@keyframes wifiPulse {
+  0%, 100% {
+    opacity: 0;
+  }
+  33.33%{
+    opacity: 0;  
+  }
+ 66.66%{
+    opacity: 1;
+  }
+ 
+
+}
+
+@keyframes wifiPulse2 {
+  0%, 100% {
+    opacity: 0;
+  }
+  1%{
+    opacity: 1;
+  }
+  66.33%{
+    opacity: 1;
+  }
+ 
+
+}
+
+
+.rounded-dual-border {
+  border-radius: 8px;
+  padding: 3px; 
+  background: linear-gradient(to bottom, rgb(124,193,65) 45%,  rgb(71,154,173) 55%);
+  /* rgb(124,188,70,0.9) */
+}
+
+.rounded-dual-border-inner {
+  border-radius: 6px; 
+  background-color: white; 
+}
+
+
+.icon {
+  padding: 3px; 
+  /* background: linear-gradient(to left, blue 45%,  rgb(31, 184, 57)  55%);
+  background: linear-gradient(to bottom, 20% rgb(31, 184, 57),rgb(31, 184, 57)  55%  ); */
+
+  /* background: rgb(125,170,50); */
+  background: linear-gradient(90deg, rgb(117,188,82) 26%, rgb(65,150,187) 100%);
+
+}
+
+.first-bar-color{
+  background: linear-gradient(to right, rgb(91,169,131) 16%, rgb(60,146,195) 100%);
+}
+
+.second-bar-color {
+background: linear-gradient(to left, rgb(123,192,65) 26%, rgb(81,162,152) 100%);
+}
+
+.registered-color{
+  background: linear-gradient(to left, rgb(152,207,113) 6%, rgb(60,146,195) 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.pagination-bar-gradient{
+  background: linear-gradient(to bottom, rgb(148,205,144) 2%, rgb(115,182,210) 100%);
+
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(250px); 
+  }
+  100% {
+    transform: translateX(-250px); 
+  }
+}
+
+/* Apply the animation to each slide */
+.slide-animation {
+  filter:  sepia(0.8) hue-rotate(181deg) saturate(200%);
+  /* filter: sepia(1) hue-rotate(190deg) saturate(200%); */
+ 
+  animation: slideRightToLeft 10s linear infinite;
+}
+
+.robotoFont{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* mobie laptop tablet */
+
+  /* Container styling */
+  .text-container {
+    font-size: 2rem;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+  }
+
+
+
+  .text {
+    transform: translateY(10px);
+    animation: slideUp 6s infinite;
+  }
+
+  .filter-image {
+    filter:  sepia(0.8) hue-rotate(181deg) saturate(200%);
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(0px);
+    }
+    20% {
+      transform: translateY(0px);
+    }
+    30% {
+      transform: translateY(-73px);
+    }
+    50% {
+      transform: translateY(-73px);
+    }
+    70% {
+      transform: translateY(-145px);
+    }
+    90% {
+      transform: translateY(-145px);
+    }
+    93% {
+      transform: translateY(-153px);
+    }
+    97% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+ 
+
+  .mobile-gradient path{
+  background-color: green;
+  /* background-color: linear-gradient(90deg, rgb(117,188,82) 26%, rgb(65,150,187) 100%); */
+
+  }
+
+  .border-style{
+    /* border-bottom: 100px solid; */
+  background: linear-gradient(180deg, rgb(65,150,187) 26%, rgb(117,188,82) 100%);
+    
+/* background: linear-gradient(90deg, rgb(152, 206, 118) 26%, rgb(111, 175, 202) 100%) 1; */
+/* border-image: linear-gradient(360deg, rgb(152, 206, 118) 26%, rgb(111, 175, 202) 100%) 1; */
+/* border-image: linear-gradient(0deg, rgb(152, 206, 118) 0%, rgb(111, 175, 202) 100%) 1; */
+/* border-image: linear-gradient(to right, rgb(152, 206, 118), rgb(111, 175, 202)) 1; */
+/* background-color: linear-gradient(0deg, rgb(152, 206, 118), rgb(111, 175, 202)) 100; */
+
+
+  }
+
+  .egg-shape {
+    width: 100px;
+    height: 200px; 
+    background: linear-gradient(90deg, rgb(152,206,118) 26%, rgb(111,175,202) 100%); 
+    border-radius: 50% 50% 60% 60%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+
+
+  

@@ -1,0 +1,65 @@
+.blob-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.blob {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  /* background-color: #6c5ce7; */
+  border-radius: 50%;
+  /* animation: blobAnimation 6s infinite ease-in-out; */
+}
+
+.big-blob{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.blob-1 {
+  /* background-color: #6c5ce7; */
+background: linear-gradient(to left, rgb(113,180,217)  26%, rgb(109,182,95) 100%);
+animation: blobAnimation1 4s infinite ease-in-out, rotate 30s infinite linear;
+  opacity: 0.6;
+  /* width: 140px; */
+  /* height: 140px; */
+}
+
+.blob-2 {
+background: linear-gradient(to right, rgb(113,180,217)  36%, rgb(109,182,95) 100%);
+/* background-color: #a29bfe; */
+  animation: blobAnimation2 6s infinite ease-in-out, rotate 30s infinite linear;
+  /* width: 140px; */
+  /* height: 140px; */
+  margin: auto;
+  opacity: 0.8;
+  top:8px;
+  left:5px;
+}
+
+@keyframes blobAnimation1 {
+  0%, 100% { border-radius: 50% 50% 45% 55%; }
+  25% { border-radius: 60% 40% 55% 45%; }
+  50% { border-radius: 45% 55% 50% 50%; }
+  75% { border-radius: 50% 60% 40% 60%; }
+}
+
+@keyframes blobAnimation2 {
+  0%, 100% { border-radius: 50% 50% 55% 45%; }
+  25% { border-radius: 55% 45% 50% 60%; }
+  50% { border-radius: 60% 40% 45% 55%; }
+  75% { border-radius: 50% 50% 60% 40%; }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
