@@ -1,6 +1,6 @@
 import Blob from "./bolbs/Blob";
 import Navbar from "./navbar";
-import Pagination from "./Pagination";
+import Pagination from "./helpers/Pagination";
 import SlideShow from "./SlideShow";
 import Trends from "./trends/Trends";
 import WholeSalers from "./WholeSalers";

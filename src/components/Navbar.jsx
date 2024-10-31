@@ -1,4 +1,4 @@
-import WifiSignal from "./WifiSignal"
+import WifiSignal from "./helpers/WifiSignal"
 
 const Navbar = () => {
     return(
