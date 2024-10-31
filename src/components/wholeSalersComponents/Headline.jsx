@@ -14,7 +14,7 @@ const HeadLine = () => {
             <span className="text-2">Laptops</span>  
             <span className="text-3">Tablets</span> 
                 </ul>
-            <span className=" relative rotate-[-15deg] left-[-190px] top-[-46px] w-[580px]"><BolbForDevices/></span>
+            <span className=" relative rotate-[-15deg] left-[-205px] top-[-40px] w-[580px]"><BolbForDevices/></span>
             
                 </div> 
           </span>
