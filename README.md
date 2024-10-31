@@ -1,4 +1,4 @@
-1. Clone the repository: git clone https://github.com/sdmo/Task_MohammadAlzeer.git
+1. Clone the repository: git clone https://github.com/MohammadAlzeer24Mmo/Task_MohammadAlzeer
 2. Navigate into the project directory: cd Task
 3. Install dependencies: npm install 
 4. Run the development server: npm run dev 
