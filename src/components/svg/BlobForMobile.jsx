@@ -2,7 +2,7 @@
 const BlobForMobile = () => {
     return(
         <>
-<div class="egg-shape"></div>
+<div className="egg-shape"></div>
 
         </>
     )
