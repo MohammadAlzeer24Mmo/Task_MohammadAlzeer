@@ -1,44 +1,6 @@
+import devices from "./Data/devices-for-slide-show"
 const SlideShow = () => {
-    const devices = [ 
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/headphones.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/headphones.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/headphones.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/headphones.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/headphones.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/headphones.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/headphones.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/headphones.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/headphones.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-        {url: "/svgs/smartwatch.svg"},
-        {url: "/svgs/headphones.svg"},
-        {url: "/svgs/mobile-phone.svg"},
-      
-        
-    
-    ]
+
     return(
         <>
         <div className="flex items-center justify-center gap-8 my-12 overflow-hidden">
