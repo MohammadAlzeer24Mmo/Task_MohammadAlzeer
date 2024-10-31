@@ -24,7 +24,7 @@ const devices = [
 ];
 const ListOfDevices = () => {
   return <>
-    <div className="flex justify-center items-center  gap-4">
+    <div className="flex items-center justify-center gap-4">
   {devices.map((device)=>(
     <Device url={device.url} name={device.name}  description={device.description}/>
 ))}
