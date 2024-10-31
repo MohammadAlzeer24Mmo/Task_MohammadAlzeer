@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import About from "./components/About";
 import Body from "./components/Body";
-import HugeBolb from "./components/bolbs/HugeBolb";
+import HugeBolb from "./components/blobs/HugeBlob";
 
 function App() {
   const [count, setCount] = useState(0);

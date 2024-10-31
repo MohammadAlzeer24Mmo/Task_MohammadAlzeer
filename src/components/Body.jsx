@@ -1,10 +1,10 @@
-import Blob from "./bolbs/Blob";
+import Blob from "./blobs/Blob";
 import Navbar from "./navbar";
 import Pagination from "./helpers/Pagination";
 import SlideShow from "./SlideShow";
 import Trends from "./trends/Trends";
 import WholeSalers from "./WholeSalers";
-import HugeBolb from "./bolbs/HugeBolb";
+import HugeBolb from "./blobs/HugeBlob";
 
 const Body = () => {
   return (

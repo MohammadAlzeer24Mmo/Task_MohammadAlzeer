@@ -1,4 +1,4 @@
-import Blob from "../bolbs/Blob"
+import Blob from "../blobs/Blob"
 import Pagination from "../helpers/Pagination"
 
 const BlobsAndPagination = () => {

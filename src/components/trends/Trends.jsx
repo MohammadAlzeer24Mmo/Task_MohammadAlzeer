@@ -1,4 +1,4 @@
-import BolbForMobile from "../svg/BolbForMobile";
+import BolbForMobile from "../svg/BlobForMobile";
 import ListOfDevices from "./ListOfDevices";
 
 const Trends = () => {

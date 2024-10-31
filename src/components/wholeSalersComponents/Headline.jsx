@@ -1,10 +1,10 @@
-import BolbForDevices from "../svg/bolbForDevices";
-import BolbForLargest from "../svg/bolbForLargest";
+import BlobForDevices from "../svg/BlobForDevices";
+import BlobForLargest from "../svg/BlobForLargest";
 
 const HeadLine = () => {
     return(
         <>
-         <h2 className="text-5xl mb-4 font-bold w-[600px] relative"> <span className="absolute top-[-104px] rotate-[-45deg] left-[-105px] w-[160px]"><BolbForLargest/></span>
+         <h2 className="text-5xl mb-4 font-bold w-[600px] relative"> <span className="absolute top-[-104px] rotate-[-45deg] left-[-105px] w-[160px]"><BlobForLargest/></span>
           largets <span className="text-[rgb(56,143,203)]">WholeSalers</span>{" "}
           <span className="flex pt-4 ">
             {" "}
@@ -14,7 +14,7 @@ const HeadLine = () => {
             <span className="text-2">Laptops</span>  
             <span className="text-3">Tablets</span> 
                 </ul>
-            <span className=" relative rotate-[-15deg] left-[-205px] top-[-40px] w-[580px]"><BolbForDevices/></span>
+            <span className=" relative rotate-[-15deg] left-[-205px] top-[-40px] w-[580px]"><BlobForDevices/></span>
             
                 </div> 
           </span>

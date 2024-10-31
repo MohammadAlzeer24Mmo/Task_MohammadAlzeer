@@ -1,5 +1,5 @@
 
-const BolbForMobile = () => {
+const BlobForMobile = () => {
     return(
         <>
 <div class="egg-shape"></div>
@@ -8,4 +8,4 @@ const BolbForMobile = () => {
     )
 }
 
-export default BolbForMobile;
+export default BlobForMobile;

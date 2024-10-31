@@ -1,5 +1,5 @@
-import "./hugeBolb.css";
-import SvgBulb from "./SvgBulb";
+import "./hugeBlob.css";
+import SvgBulb from "./SvgBlob";
 const HugeBolb = () => {
     return(
         <>

@@ -1,4 +1,4 @@
-const BolbForDevices = () => {
+const BlobForDevices = () => {
     return(
         <>
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -8,4 +8,4 @@ const BolbForDevices = () => {
     )
 }
 
-export default BolbForDevices;
+export default BlobForDevices;

@@ -1,5 +1,5 @@
 
-const BolbForLargest = () => {
+const BlobForLargest = () => {
     return(
         <>
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -9,4 +9,4 @@ const BolbForLargest = () => {
     )
 }
 
-export default BolbForLargest;
+export default BlobForLargest;
