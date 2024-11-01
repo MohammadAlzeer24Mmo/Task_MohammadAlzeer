@@ -16,8 +16,8 @@ const Navbar = () => {
                     <li className="relative z-10">o</li>
                     <li className="relative z-10">g</li>
                     <li className="relative z-10">o</li>
-                    <span className="absolute top-[20px] left-[37px] z-0 w-3 h-3 bg-[rgb(17,238,252)] rounded-full"></span>
-                    <span className="absolute top-[20px] left-[14px] z-0 w-3 h-3 bg-[rgb(224,57,154)] rounded-full"></span>
+                    <span className="absolute top-[20px] left-[14px] z-0 w-3 h-3 bg-[rgb(17,238,252)] rounded-full"></span>
+                    <span className="absolute top-[20px] left-[37px] z-0 w-3 h-3 bg-[rgb(224,57,154)] rounded-full"></span>
                     <span className="absolute top-[20px] left-[60px] z-0 w-3 h-3 bg-[rgb(255,212,61)] rounded-full"></span>
                     </ul><span className="absolute top-[-10px] rotate-45 right-[-23px]"><WifiSignal/></span></li>
                 <li>Service</li>
