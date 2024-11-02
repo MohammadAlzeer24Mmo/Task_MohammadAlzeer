@@ -27,7 +27,6 @@ const WholeSalers = () => {
           <Socials />
         </div>{" "}
         {/* End grid */}
-        {/* BLOBS */}
         <BlobsAndPagination />
       </div>
       <div className="w-[400px] mt-24 first-bar-color h-[10px] rounded-r-full"></div>
